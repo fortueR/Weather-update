@@ -6,8 +6,10 @@ body {
   max-width: 650px;
   margin: 50px 35px auto;
   padding: 30px;
-  box-shadow: 10px 5px 5px red;
+  box-shadow: 10px 5px 5px rgb(207, 205, 205);
 }
 .search-form-input {
-  background-color: #885df1;
+  background-color: #f2f1f7;
+  border: none;
+  border-radius: 6px;
 }
