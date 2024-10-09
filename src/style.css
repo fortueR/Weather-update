@@ -17,7 +17,7 @@ header {
   background-color: #f2f1f7;
   border: none;
   border-radius: 6px;
-  width: 100px;
+  width: 600px;
   padding: 15px 20px;
   font-size: 16px;
 }
@@ -29,4 +29,11 @@ header {
   color: #885df1;
   margin-left: 5px;
   font-size: 16px;
+}
+footer {
+  border-top: 1px solid #d6c8ae;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 13px;
+  color: rgba (0, 0, 0, 0.8);
 }
