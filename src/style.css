@@ -23,13 +23,50 @@ header {
 }
 
 .search-form-button {
-  background-color: #ffffff;
+  background-color: #885df1;
   padding: 15px 25px;
   border-radius: 6px;
-  color: #885df1;
+  color: #ffffff;
   margin-left: 5px;
   font-size: 16px;
 }
+main {
+  padding: 30px 0;
+}
+.weather-update-data {
+  display: flex;
+  justify-content: space-between;
+}
+.weather-update-city {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
+.weather-update-details {
+  font-size: 16px;
+  line-height: 24px;
+  color: grey;
+  font-weight: 500;
+}
+.weather-update-details strong {
+  color: #841c45;
+}
+.weather-update-container {
+  display: flex;
+}
+.weather-update-icon {
+  font-size: 40px;
+  margin-top: 22px;
+  margin-left: 10px;
+}
+.weather-update-temperature {
+  font-size: 80px;
+}
+.weather-update-unit {
+  margin-top: 16px;
+  font-size: 25px;
+}
+
 footer {
   border-top: 1px solid #d6c8ae;
   padding: 30px 0 0 0;
