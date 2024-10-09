@@ -8,8 +8,25 @@ body {
   padding: 30px;
   box-shadow: 10px 5px 5px rgb(207, 205, 205);
 }
+header {
+  border-bottom: 1px solid #d6c8ae;
+  padding: 0 0 30px 0;
+}
+
 .search-form-input {
   background-color: #f2f1f7;
   border: none;
   border-radius: 6px;
+  width: 80px;
+  padding: 15px 20px;
+  font-size: 16px;
+}
+
+.search-form-button {
+  background-color: #ffffff;
+  padding: 15px 25px;
+  border-radius: 6px;
+  color: #885df1;
+  margin-left: 5px;
+  font-size: 16px;
 }
