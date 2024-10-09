@@ -8,3 +8,6 @@ body {
   padding: 30px;
   box-shadow: 10px 5px 5px red;
 }
+.search-form-input {
+  background-color: #885df1;
+}
