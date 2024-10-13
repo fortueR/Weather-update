@@ -25,6 +25,7 @@
             <div>
               <h1 class="weather-update-city" id="city"></h1>
               <p class="weather-update-details">
+                <span id="time"></span>
                 <span id="description"></span>
                 <br />
                 Humidity: <strong id="humidity"></strong>, Wind
@@ -32,7 +33,13 @@
               </p>
             </div>
             <div class="weather-update-container">
-              <div class="weather-update-icon">⛅</div>
+              <div id="icon">
+                <img
+                  src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/scattered-clouds-day.png"
+                  alt=""
+                  class="weather-update-icon"
+                />
+              </div>
               <div class="weather-update-temperature" id="temperature"></div>
               <div class="weather-update-unit">°C</div>
             </div>
