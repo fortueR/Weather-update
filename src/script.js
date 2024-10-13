@@ -13,7 +13,7 @@ function updateWeather(response) {
   temperatureElement.innerHTML = Math.round(temperature);
   descriptionElement.innerHTML = response.data.condition.description;
   humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
-  windSpeedElement.innerHTML = `${response.data.condition.wind.speed}Km/h`;
+  windSpeedElement.innerHTML = `${response.data.wind.speed}Km/h`;
   timeElement.innerHTML = formatDate(date);
   iconElement.innerHTML = `<img
                   src="${response.data.condition.icon_url}"
