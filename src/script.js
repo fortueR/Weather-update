@@ -12,7 +12,7 @@ function updateWeather(response) {
   cityElement.innerHTML = response.data.city;
   temperatureElement.innerHTML = Math.round(temperature);
   descriptionElement.innerHTML = response.data.condition.description;
-  humidityElement.innerHTML = `${response.data.condition.humidity}%`;
+  humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
   windSpeedElement.innerHTML = `${response.data.condition.wind.speed}Km/h`;
   timeElement.innerHTML = `${Date.getHour()}:${Date.getMinutes()}:${Date.getDay()};`;
   icon.innerHTML = `<img
