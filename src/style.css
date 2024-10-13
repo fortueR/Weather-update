@@ -56,15 +56,16 @@ main {
   display: flex;
 }
 .weather-update-icon {
-  font-size: 40px;
-  margin-top: 22px;
+  width: 88px;
+  line-height: 88px;
   margin-left: 5px;
 }
 .weather-update-temperature {
   font-size: 80px;
+  line-height: 88px;
 }
 .weather-update-unit {
-  margin-top: 16px;
+  margin-top: 6px;
   font-size: 25px;
 }
 
