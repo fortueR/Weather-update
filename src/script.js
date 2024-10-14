@@ -70,7 +70,7 @@ function displayForecast() {
                 </div>
               </div>
             </div>`;
-    forecastElement.innerHTML = forecastElement;
+    forecastElement.innerHTML = forecastHtml;
   });
 }
 let searchFormElement = document.querySelector("#search-form");
